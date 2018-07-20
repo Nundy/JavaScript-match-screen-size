@@ -1,0 +1,509 @@
+ /* 页头 */
+  html {
+    background-color: #eee;
+  }
+
+  body {
+    width: 6.4rem;
+    margin: 0 auto;
+  }
+
+
+  .ipohone-header {
+    display: block;
+  }
+
+  .ipohone-header {
+    position: relative;
+    display: block;
+    width: 100%;
+    height:1rem;
+    font-size: 28%;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+    z-index: 100;
+    line-height: 1rem;
+
+  }
+  .iphone-header-img {
+    display: inline-block;
+    width: .5rem;
+    line-height: 1rem;
+    margin-left: .2rem;
+  }
+
+  .ipohone-header p {
+    display: inline;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .iphone-header-full {
+    margin-left: -100%;
+    width: 6.4rem;
+    height: 100%;
+    position: fixed;
+    z-index: 300;
+    background-color:rgba(200,200,200,.9);
+    top: 0;
+    transition: .2s;
+  }
+
+
+
+  .iphone-header-a {
+    padding-top: 1rem;
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 301;
+    font-size: 18%;
+  }
+
+  .iphone-header-a a {
+    color: #222;
+  }
+
+  .iphone-header-a li {
+    padding-left: 0.5rem;
+    /* list-style-type: circle; */
+    height: 1rem;
+    line-height: 1rem;
+    border-top: 1px solid #ddd;
+
+  }
+
+  .iphone-header-full .xxx-hide {
+    display: block;
+    width: .4rem;
+    top: .2rem;
+    position: absolute;
+    left: 80%;
+  }
+
+  /* 轮播图 */
+  .video-contain,
+  .round-container {
+    display: none;
+  }
+
+  .container section {
+    margin: 0;
+  }
+
+  .iphone-banner-container {
+    display: block;
+    width: 6.4rem;
+    height: 1.8rem;
+    overflow: hidden;
+  }
+
+  .iphone-banner {
+    position: relative;
+    display: block;
+    width: 500%;
+    height: 1.8rem;
+    /* background-color: red; */
+    margin-top: -3px;
+    transition: .2s;
+  }
+
+  .iphone-banner a {
+    float: left;
+    width: 6.4rem;
+    height: 1.8rem;
+  }
+
+  .iphone-banner a img {
+    padding: 0;
+    margin: 0;
+    width: 6.4rem;
+    height: 1.8rem;
+  }
+
+.iphone-banner-focus {
+  position: absolute;
+  left: 50%;
+  bottom: .1rem;
+  margin-left: -0.35rem;
+  display: block;
+  color: red;
+}
+
+.iphone-banner-focus span {
+  margin-right: .1rem;
+  display: block;
+  float: left;
+  width: .15rem;
+  height: .15rem;
+  border-radius: 50% 50%;
+  background-color: #ddd;
+}
+
+.iphone-banner-focus span.active {
+  background-color: #999;
+}
+
+
+/* 宣传视频 */
+.text-content {
+  padding-top: .5rem;
+  font-size: 23%;
+  line-height: normal;
+  padding-bottom: .2rem;
+}
+
+.text-content em.english {
+  font-size: 55%;
+}
+
+.iframe-contain {
+  margin: 0 auto;
+  width: 5rem;
+  height: 4rem;
+  background-color: #000;
+}
+
+.iframe-contain video {
+  width: 5rem;
+   height: 4rem;
+  margin: 0 auto;
+}
+
+.more {
+  display: block;
+  width: 70%;
+  height: .6rem;
+  border: 1px solid #e71a1f;
+  text-align: center;
+  line-height: .6rem;
+  font-size: 20%;
+  margin: .5rem auto;
+  color: #e71a1f;
+  border-radius: .3rem;
+}
+
+.more:hover,
+.more:active {
+  background-color: #e71a1f;
+  border: 1px solid #e71a1f;
+}
+
+.property-content {
+  width: 6rem;
+  margin: 0 auto;
+}
+
+.max-container {
+  width: 6rem;
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.property-img-container {
+  width: 50%;
+  height: 3rem;
+  background-color: #eee;
+}
+
+.property-img {
+  display: block;
+  width: 6rem;
+  float:none;
+  position: relative;
+}
+#yes {
+  display: block;
+  width: 6rem;
+  height: 3rem;
+}
+
+.property-content .property-img .imgss {
+  display: block;
+  width: 3rem;
+  height: 2.2rem;
+  transition: none;
+
+}
+
+.property-content .property-img .imgss:hover {
+  transform: none;
+}
+
+.property-content .property-img p {
+  text-align: center;
+  width: 50%;
+  height: .8rem;
+  font-size: 18%;
+  line-height: .8rem;
+  margin: 0;
+}
+
+.property-img-container a:nth-child(2),
+.property-img-container a:nth-child(3),
+.property-img-container a:nth-child(4),
+.round-container {
+  display: none;
+}
+
+/* 公司简介 */
+.property-content {
+  height: 5rem;
+}
+
+.summary-content p {
+  text-indent: .4rem;
+  width: 6rem;
+  font-size: 18%;
+  line-height: .4rem;
+}
+
+
+/* 创新分享 */
+.full {
+  display: none;
+}
+
+.blue-bakcground {
+  display: none;
+}
+
+.summary-content {
+  width: 100%;
+  height: auto
+}
+
+.turn-background {
+  width: 6rem;
+  margin: 0 auto;
+  padding:0;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ccc;
+}
+
+.turn-content {
+  display: block;
+  width: 70%;
+  padding:0;
+  margin: 0;
+  height: auto;
+  float: right;
+  /* background-color:red; */
+  clear: both;
+  padding-top: .5rem;
+  /* border-bottom: 1px solid #ccc; */
+  padding-bottom: .5rem;
+}
+
+.turn-content h4 {
+  font-size: 23%;
+  height: auto;
+  width: 100%;
+  padding:0;
+  margin: 0;
+  height: auto;
+  line-height: normal;
+  border: none;
+}
+
+.turn-content h4 em {
+  font-size: 60%;
+  padding:0;
+  margin: 0;
+  height: auto;
+  line-height: normal;
+  padding-top: .1rem;
+}
+
+.turn-content .text {
+  font-size: 18%;
+  padding:0;
+  margin: 0;
+  width: 100%;
+  text-indent: 0;
+  padding-top: .5rem;
+  height: .9rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* text-overflow: ellipsis; */
+  -webkit-box-orient: vertical;
+}
+
+
+.turn-content img.round-picture {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding:0;
+  margin: 0;
+  position: absolute;
+  left: -1.8rem;
+  top: .6rem;
+}
+
+.turn-background span.style {
+  display: none;
+}
+
+.turn-content-bottom-border {
+  border-bottom:1px solid #ccc;
+  width: 100%;
+  height: auto;
+}
+
+.turn-background .turn-content-2,
+.turn-background .turn-content-4 {
+  float: left;
+}
+
+.turn-content-2 img.round-picture,
+.turn-content-4 img.round-picture {
+  left: auto;
+  right: -1.8rem;
+}
+
+
+/* 新闻中心 */
+.news-container {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.news-content {
+  display: block;
+  width: 6rem;
+  height: auto;
+  padding: 0;
+  margin: 0 .2rem;
+  border-bottom: 1px solid #ccc;
+  padding: .5rem 0;
+}
+
+.news-content:hover {
+  box-shadow: none;
+}
+.news-content img {
+  display: none;
+}
+
+.news-content h4,
+.news-content p,
+.news-content .news-time {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  line-height: normal;
+  padding-bottom: .2rem;
+}
+
+.news-content h4 {
+  font-size: 23%;
+}
+
+.news-content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  font-size: 18%;
+  height: .7rem;
+}
+
+.news-content .news-time {
+  display: block;
+  font-size: 14%;
+  color: #ccc;
+}
+
+
+/* 合作伙伴 */
+.cooperation {
+  padding-top: 1rem;
+}
+
+.call-container .text-content {
+  padding-top: 1rem;
+}
+
+.call-container {
+  background-color: #f7f7f7;
+}
+
+
+/* 联系我们 */
+.call-mode img {
+  display: none;
+}
+
+.call-message {
+  display: none;
+}
+
+.call-content {
+  width: 100%;
+}
+
+.call-mode {
+  float: none;
+  width: 6rem;
+  margin: 0 auto;
+}
+
+.call-mode h5 {
+  font-size: 21%;
+  line-height: normal;
+}
+
+.call-mode p {
+  margin: .1rem 0;
+  font-size: 15%;
+  line-height: normal;
+}
+
+/* 页面底部 */
+.footer {
+  width: 100%;
+  height: .6rem;
+  line-height: normal;
+  background-color: #ddd;
+}
+
+.footer span,
+.footer a {
+  float: left;
+  font-size: 8%;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+  display: block;
+  color: #999;
+  margin-right: .2rem;
+  line-height: .6rem;
+}
+
+.footer img {
+  width: 2%;
+  display: block;
+  margin-right: .05rem;
+  float: left;
+  padding-top: .25rem;
+}
+.footer span:first-child {
+  margin-left: .6rem;
+}
+.news-content
